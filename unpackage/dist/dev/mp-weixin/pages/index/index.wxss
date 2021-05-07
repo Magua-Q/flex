@@ -1,0 +1,26 @@
+
+.content {
+	background-color: #FFFFFF;
+	margin: 0 0 55px;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+}
+.content-item {
+	height: 200px;
+	width: 200px;
+	background: yellow;
+	text-align: center;
+	line-height: 200px;
+	margin: 5px
+}
+.box {
+	/* flex-direction: row; 从左到右 */
+	/* flex-direction: row-reverse; 从右到左 */
+	/* flex-direction: column;从上到下 */
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: reverse;
+	-webkit-flex-direction: column-reverse;
+	        flex-direction: column-reverse;
+}
+

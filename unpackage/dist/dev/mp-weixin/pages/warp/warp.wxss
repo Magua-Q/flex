@@ -1,0 +1,27 @@
+
+.container {
+	background-color: #FFFFFF;
+	margin: 0 0 55px;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+}
+.content-item {
+	height: 200px;
+	width: 200px;
+	background: yellow;
+	text-align: center;
+	line-height: 200px;
+	margin: 5px
+}
+.box {
+	/* flex-direction: row;
+	flex-wrap: nowrap; */
+	/* flex-wrap: nowrap; */
+	/* flex-wrap: wrap-reverse; 反向换行*/
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-flow: row nowrap;
+	        flex-flow: row nowrap;
+}
+
